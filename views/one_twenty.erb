@@ -1,0 +1,9 @@
+<h1>1 dice with 20 sides</h1>
+
+<% if @one_roll == 1 %>
+  <p style="color: red"><%= @outcome %></p>
+<% elsif @one_roll == 20 %>
+  <p style="color: green"><%= @outcome %></p>
+<% else %>
+  <p><%= @outcome %></p>
+<% end %>
